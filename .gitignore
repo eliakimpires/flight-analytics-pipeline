@@ -1,0 +1,17 @@
+# Pastas de dados, logs e plugins do Airflow
+data/
+logs/
+plugins/
+
+# Arquivos de ambiente e de banco de dados
+.env
+/tmp/flights.db
+
+# Pastas geradas pelo Python e dbt
+__pycache__/
+app/dbt_project/logs/
+app/dbt_project/target/
+app/dbt_project/dbt_packages/
+
+# Arquivos específicos do sistema operacional
+.DS_Store

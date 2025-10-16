@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: staging
+    schema: main # No DuckDB o schema padrão e 'main'
+    tables:
+      - name: flights_raw
